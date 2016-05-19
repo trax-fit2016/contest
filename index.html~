@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Trax Contest in FIT2015 : ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Trax Contest in FIT2015</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <!--<a id="forkme_banner" href="https://github.com/trax-fit2015/contest">View on GitHub</a>-->
+
+        <h1 id="project_subtitle">第6回 相磯秀夫杯 デザインコンテスト</h1>
+        <h1 id="project_title">The 1st RECONF/CPSY/ARC/GI</h1>
+	<h1 id="project_title">Trax デザインコンペティション</h1>
+        <h2 id="project_tagline">FIT2015 第14回情報科学技術フォーラム イベント企画</h2>
+	<font color="white"><div align="right">開催日時: 2015年9月17日(木)&nbsp;&nbsp;&nbsp;開催場所: 愛媛大学</div></font>
+	<!--
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/trax-fit2015/contest/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/trax-fit2015/contest/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+	    -->
+      </header>
+    </div>
+
+    <div id="sidebar_wrap" class="outer">
+      <section id="sideber_content" class="inner">
+	<!--
+	<br>
+	<br>
+	<div align="center"><font size="+1"><a class="button" target="_new" href="https://docs.google.com/forms/d/1snPEKMwYPsZvQTIwD--eG-m3_8uMXAddekjmpzgKS9c/viewform">&nbsp;&nbsp;参加申し込み&nbsp;&nbsp;</a></font></div>
+	<br>
+	<div align="center">申込締切り:8月14日</div>
+	<br>
+	-->
+	<hr>
+	<ul>
+	  <li><a href="#rule">ルール</a>
+	  <li><a href="#toolkit">ツールキット</a>
+	  <li><a href="#reguration">参加方法</a>
+	  <li><a href="#important-date">重要な日程</a>
+	  <li><a href="#award">表彰</a>
+	  <li><a href="result.html">対戦結果</a>
+	  <li><a href="#contact">問い合わせ先</a>
+	  <li><a href="#org">実施組織</a>
+	  <li><a href="#committee">運営委員</a>
+	  <li><a href="#sponsors">スポンサー</a>
+	</ul>
+	<hr>
+	<br>
+	<div align="center">
+	  <a href="http://info.dwango.co.jp"><img style="border-style:none;" alt="http://info.dwango.co.jp" src="images/dwango_logo_blue_L.png" width="180"></a>
+	  <br>
+	  <a href="http://japan.xilinx.com/"><img style="border-style:none;" alt="http://japan.xilinx.com/" src="images/XILINX.jpg" width="160"></a>
+	  <br>
+	  <a href="https://www.digilentinc.com/"><img style="border-style:none;" alt="https://www.digilentinc.com/" src="images/Digilent-Logo2015-color_on_white-3000.png" width="180"></a>
+	  <br>
+	  <a href="http://www.avnet.co.jp/"><img style="border-style:none;" alt="http://www.avnet.co.jp/" src="images/avnet_logo.png" width="160"></a>
+	  <br>
+	  <br>
+	  <a href="http://www.hdl.co.jp/FIT2015"><img style="border-style:none;" alt="http://www.hdl.co.jp/FIT2015" src="images/hum03.gif" width="80"></a>
+	  <br>
+	  <a href="http://e-trees.jp"><img style="border-style:none;" alt="http://e-trees.jp" src="images/etrees.jpg" width="120"></a>
+	  <br>
+	  <a href="http://www.tantrix.jp"><img style="border-style:none;" alt="http://www.tantrix.jp" src="images/banner.gif" width="120"></a>
+	</div>
+      </section>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+
+    <font size="+2"><a href="result.html">対戦結果を公開しました(2015.9.21)</a></font>
+    <br>
+
+	<img width="480" src="images/trax.png"/>
+
+	<p>高度化・多様化が進むコンピュータシステムの基盤技術を支える研究者・技術者の育成と交流・研究開発の成果検証を目的に，零和二人ゲームであるTraxを題材とした設計コンテストを開催します．ゲームはルールが明確で評価がしやすく，また，それ自体が興味深いことから，情報処理の例題として盛んに用いられ，探索，データベース，機械学習，専用アーキテクチャなど広い範囲で大きな成果につながっています．</p>
+	<p>Traxデザインコンペティションでは，FPGA上の専用回路あるいはソフトウェアとして設計したTraxプレーヤを持ち寄って，対戦させて勝敗を競います．システム設計技術・アーキテクチャ技術・リコンフィギャラブル技術・人工知能応用技術やヒューリスティック探索技術および関連技術について，先端の研究開発の成果をアピールする機会となることを目指します．</p>
+
+	<p>また，ポスタセッションも同時開催します．ゲームプレーヤの実装やアルゴリズムについて議論しましょう．</p>
+
+	<p>本ページは現在準備/検討中の内容を含みますので，ご注意ください．</p>
+
+        <h3><a id="rule" class="anchor" href="#rule" aria-hidden="true"><span class="octicon octicon-link"></span></a>ルール</h3>
+	<p>
+	  Traxは2人で遊ぶゲームです．赤と白の線が描かれたタイルを使ってラインをつなげていきます．先にループを完成させる，あるいはビクトリーラインと呼ばれるラインを完成させた人が勝ちです．
+	</p>
+
+	<h4>コンペティションでのルール</h4>
+	<p>The 1st RECONF/CPSY/ARC/GI Trax デザインコンペティションのルールは，ソフトウェア/ハードウェア実装のどちらの場合でも<a href="http://lut.eee.u-ryukyu.ac.jp/traxjp/rules.html">Trax/FPGA JP 基本的なルール</a>に準じます．</p>
+
+	<h4>対戦方式</h4>
+	<p>
+	  <ul>
+	    <li>実装したプレーヤーとサーバーをシリアル通信またはTCP/IPで接続して対戦させます．
+	    <li>プレーヤは，Trax Notationという表現方法で，サーバーからゲーム情報を受け取り，また，自分の手をサーバーに伝えます．Trax Notationについては，<a href="http://lut.eee.u-ryukyu.ac.jp/traxjp/rules.html">Trax/FPGA JP 基本的なルール</a>の半ほどを参照してください．
+	    <li>Trax Notationについては，<a href="http://www.traxgame.com/games_longest.php">Longest Trax Games</a>にある過去の対戦記録も，ご参照ください．
+	    <li>ターン毎のプレーヤの持ち時間は，サーバーとの通信時間を含めて1秒です．
+	    <li>各対戦は先行と後攻を入れ替えて2回ずつ行います．
+	    <li>時間の都合により255手で引き分けとします．
+	  </ul>
+	</p>
+
+	<div align="center"><img width="300" src="images/trax_compe_image.png"/></div>
+
+
+        <h3><a id="toolkit" class="anchor" href="#toolkit" aria-hidden="true"><span class="octicon octicon-link"></span></a>ツールキット</h3>
+	<p>
+	  コンテストで使用するサーバプログラムを<a target="_new" href="http://lut.eee.u-ryukyu.ac.jp/traxjp/tools.html">こちら</a>からダウンロードできます．開発用の対戦相手として、乱数を使って手を決定する bot program (trax-player) も配布物に含まれています．ご利用ください．</p>
+	<ul>
+	  <li><a href="dl/trax-150701.zip">最新版のホストプログラムのコピーを入手</a>
+	</ul>
+	  <p>
+	  ドキュメントや更新情報などは<a target="_new" href="http://lut.eee.u-ryukyu.ac.jp/traxjp/tools.html">オリジナルの配布元</a>を参照してください．
+	</p>
+	<p>なお，コンテストではFreeBSDによるホストシステムを利用する予定です．ホストシステム起動用のUSBディスクイメージも<a target="_new" href="http://lut.eee.u-ryukyu.ac.jp/traxjp/tools.html">こちら</a>に用意されていますので，シリアル接続での対戦を予定しているチームは動作を確認の上，対戦に臨んでください．</p>
+        <h3><a id="reguration" class="anchor" href="#rule" aria-hidden="true"><span class="octicon octicon-link"></span></a>参加方法とクラス</h3>
+
+	<h4>参加方法</h4>
+	<p>
+	  <ul>
+	    <li>一名または複数名によるチームを構成して参加してください．
+	    <li>チーム毎に，参加登録フォームに，必要事項を入力してください．(<a target="_new" href="https://docs.google.com/forms/d/1snPEKMwYPsZvQTIwD--eG-m3_8uMXAddekjmpzgKS9c/viewform">参加申し込みフォーム</a>)
+	    <li>各チーム，少なくとも一人は，当日の現地での対戦に参加してください．(現地での対戦に参加する方は，このコンペティションへの参加登録に加えて<a href="http://www.ipsj.or.jp/event/fit/fit2015/">FIT2015 第14回情報科学技術フォーラム</a>に参加登録していただく必要があります．)
+	  </ul>
+	</p>
+	
+	<h4>参加クラス</h4>
+	<p>対戦は，次の2つのクラスに分けて実施します．</p>
+	<p>
+	  <dl>
+	    <dt>エンベデッド</dt>
+	    <dd>消費電力5W未満のシステムに実装したプレーヤで競う部門</dd>
+	    <dt>一般</dt>
+	    <dd>ノートPC等の高々消費電力100W程度のシステムに実装したプレーヤで競う部門</dd>
+	  </dl>
+	</p>
+	<p>それぞれのクラスの消費電力以内であれば，PCやGPU，FPGAなどを使って実装して構いません．</p>
+
+        <h3>
+	  <a id="important-date" class="anchor" href="#important-date" aria-hidden="true"><span class="octicon octicon-link"></span></a>重要な日程
+	</h3>
+
+	<p>
+	  <dl>
+	    <dt>参加受付期間</dt><dd><del>〜8月14日</del>締切りました．</dd>
+	    <dt>接続チェック</dt><dd><del>2015年9月16日(水) 15:30〜17:30，共通教育講義棟 2階 講21</del>終了しました．/dd>
+	    <dt>予選</dt><dd><del>2015年9月17日(木) 9:30〜12:00</del>終了しました．</dd>
+	    <dt>本選</dt><dd><del>2015年9月17日(木) 13:00〜16:00</del>終了しました．</dd>
+	  </dl>
+	</p>
+
+        <h3>
+	  <a id="award" class="anchor" href="#award" aria-hidden="true"><span class="octicon octicon-link"></span></a>表彰
+	</h3>
+	<p>
+	上位入賞チームには，表彰状と楯を贈呈いたします．
+	また，スポンサー企業よりの副賞として，金一封の賞金および賞品を贈呈いたします．
+	</p>
+	<dl>
+	  <dt>賞金</dt><dd>1位:5万円，2位:3万円，3位:2万円，4位:1万円，5,6位:5千円</dd>
+	  <dt>副賞</dt><dd>各部門1位にSDSoC + Zyboを贈呈，その他SDSoC + Zybo，MicroBoard，Basys3などを用意</dd>
+	</dl>
+	<p>
+	また，コンテスト参加者，観戦者にTRAXゲームタイルが当たる抽選会を行ないます．
+	</p>
+	
+
+        <h3>
+	  <a id="contact" class="anchor" href="#contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>問い会わせ先
+	</h3>
+	<p>質問は，<i>fit2015-trax-q_at_wasamon.net</i>まで，メールでご連絡ください．(_at_は@に置換して，送ってください)<p>
+
+          <h3>
+	    <a id="org" class="anchor" href="#org" aria-hidden="true"><span class="octicon octicon-link"></span></a>実施組織
+	  </h3>
+	<p>
+	  <ul>
+	    <li>電子情報通信学会 リコンフィギャラブルシステム研究専門委員会
+	    <li>電子情報通信学会 コンピュータシステム研究専門委員会
+	    <li>情報処理学会 システム・アーキテクチャ研究会
+	    <li>情報処理学会 ゲーム情報学研究会
+	  </ul>
+	</p>
+
+        <h3>
+	  <a id="committee" class="anchor" href="#committee" aria-hidden="true"><span class="octicon octicon-link"></span></a>運営委員
+	</h3>
+	<p>(あいうえお順)</p>
+	<ul>
+	  <li>天野 英晴 (慶応義塾大学)
+	  <li>泉 知論 (立命館大学)
+	  <li>大川 猛 (宇都宮大学)
+	  <li>長名 保範 (琉球大学)
+	  <li>佐藤 幸紀 (東京工業大学)
+	  <li>中原 啓貴 (愛媛大学)
+	  <li>保木 邦仁 (電気通信大学)
+	  <li>三好 健文 ((株)イーツリーズ・ジャパン)
+	</ul>
+
+        <h3>
+	  <a id="sponsors" class="anchor" href="#sponsors" aria-hidden="true"><span class="octicon octicon-link"></span></a>スポンサー企業
+	  </h3>
+	  <ul>
+	    <li>株式会社ドワンゴ
+	    <li>ザイリンクス株式会社
+	    <li>Digilent Inc.
+	    <li>アヴネット株式会社
+	  </ul>
+	  <ul>
+	    <li>有限会社ヒューマンデータ
+	    <li>株式会社イーツリーズ・ジャパン
+	    <li>タントリックス・ジャパン
+	  </ul>
+<!--	  <p>スポンサー企業のご支援を募っています．よろしくお願いいたします．詳細は，<i>fit2015-trax-q_at_wasamon.net</i>まで，メールでお問い合わせください．(_at_は@に置換して，送ってください)</p> --->
+	</h3>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+	<!--
+            <p class="copyright">Trax Contest in FIT2015 maintained by <a href="https://github.com/trax-fit2015">trax-fit2015</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+	-->
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
